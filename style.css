@@ -1,0 +1,218 @@
+body {
+	background-color: sienna;
+	text-align: center;
+}
+
+img {
+	width: 300px;
+	border-radius: 20%;
+
+	border: 3px solid;
+}
+
+icon {
+    color: brown; /* Set the default color */
+    transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+.icon:hover {
+     background-color: #yellowgreen;
+
+}
+
+.card-yellow {
+    background-color: #B87333;
+	width: 700px;
+	margin: 24px auto;
+	padding: 24px 24px;
+	border-radius: 10px;
+	box-shadow: 25px 220px 50px rgba(0,0,0,0.4);
+    
+}
+
+
+.card-blue {
+    background-color:honeydew;
+	width: 700px;
+	margin: 24px auto;
+	padding: 24px 24px;
+	border-radius: 10px;
+	box-shadow: 25px 220px 50px rgba(0,0,0,0.4);
+}
+
+.card-beige {
+    background-color: #d1bc8a;
+	width: 700px;
+	margin: 24px auto;
+	padding: 24px 24px;
+	border-radius: 10px;
+	box-shadow: 25px 220px 50px rgba(0,0,0,0.4);
+}
+
+.card-green {
+    background-color:tan;
+	width: 700px;
+	margin: 24px auto;
+	padding: 24px 24px;
+	border-radius: 10px;
+	box-shadow: 25px 220px 50px rgba(0,0,0,0.4);
+}
+
+.btn-blue {
+        background-color: #B87333;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        border-radius: 50%;
+    }
+
+    .btn-blue:hover {
+        background-color: #5C3317;
+    }
+
+p {
+	font-family: 'Playpen Sans', sans-serif;
+	font
+}
+
+a {
+	text-decoration: none;
+	background-color: brown;
+	color: white;
+	border-radius: 15%;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin:24px 0;
+	padding: 16px 24px;
+	border-radius: 12px;
+	display: inline-block;
+}
+
+h1, h2 {
+	color: black;
+	font-family: 'Playpen Sans', cursive;
+
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+	padding: 0px;
+}
+
+.card-white {
+	background-color: white;
+	width: 700px;
+	margin: 24px auto;
+	padding: 24px 24px;
+	border-radius: 10px;
+	box-shadow: 25px 220px 50px rgba(0,0,0,0.4);
+}
+
+ul {
+	font-size: 32px;
+}
+
+ul li {
+	margin: 0 16px;
+	display: inline;
+}
+
+.container {
+	width: 700px;
+	margin: auto;
+}
+
+.ehl-title {
+    font-family:'Roboto', sans-serif;
+}
+
+
+.card-white-intro {
+background-color: beige;
+	width: 700px;
+	margin: 24px auto;
+	padding: 24px 24px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.4)
+}
+
+.custom-button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #ff4136;
+}
+
+.icon {
+    color: #fff;
+    margin-right: 5px;
+}
+
+
+@media(max-width:960px) {
+	.card-white {
+		background-color: beige;
+
+	}
+
+
+@media (max-width:700px) {
+
+	.container {
+		width: 500px;
+	}
+
+	.card-white {
+		width:560px;
+	}
+	
+	 .social-icons a {
+        color: #000; /* Set the default color */
+        margin: 0 10px;
+        text-decoration: none;
+        font-size: 24px;
+        transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+        color: #darkred; /* Set the hover color (blue) */
+
+}
+
+@media (max-width:400px) {
+	.card-white {
+		width:360px;
+	}
+	
+	 .social-icons a {
+        color: #000; /* Set the default color */
+        margin: 0 10px;
+        text-decoration: none;
+        font-size: 24px;
+        transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+        color: #darkred; /* Set the hover color (blue) */
+
+}
+
+
+
+
+
+
+
+
+
